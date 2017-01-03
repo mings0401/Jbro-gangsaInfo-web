@@ -1,0 +1,4 @@
+[submodule "submodules/common"]
+	path = submodules/common
+	url = git@github.com:mings0401/Jbro-js-common.git
+	branch = master
