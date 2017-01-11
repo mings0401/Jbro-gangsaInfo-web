@@ -84,7 +84,7 @@
                             </tr>
                             <tr style="height: 50px;">
                                 <td align="center">
-                                    <div class="div-button">
+                                    <div class="div-button movePage" value="outturnJoin">
                                         <font class="font-button-text">아웃터니 회원가입</font>
                                     </div>
                                 </td>
@@ -120,7 +120,7 @@
                             </tr>
                             <tr style="height: 50px;">
                                 <td align="center">
-                                    <div class="div-button">
+                                    <div class="div-button movePage" value="commonJoin">
                                         <font class="font-button-text">일반 회원가입</font>
                                     </div>
                                 </td>
@@ -179,6 +179,22 @@
 <!--[if lte IE 8]>
 <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
+
+<script>
+    $(function () {
+        $('.movePage').unbind('click');
+        $('.movePage').bind('click', function () {
+            switch ($(this).attr("value")){
+                case 'outturnJoin':
+                    location.href = "outurnship-join.html";
+                    break;
+                case 'commonJoin':
+                    location.href = "common-join.html";
+                    break
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
