@@ -79,3 +79,9 @@
     color : #454545;
     font-size: 14px;
 }
+
+.textarea-setting{
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
