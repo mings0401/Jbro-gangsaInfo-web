@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Left Sidebar - TXT by HTML5 UP</title>
+    <title>아웃턴 쉽</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]>
@@ -20,37 +20,7 @@
 <body>
 <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header">
-        <div class="div-main-logo"><img src="images/main/outernship-logo.png"></div>
-    </header>
-
-    <!-- Nav -->
-    <nav id="nav">
-        <ul>
-            <li class="current"><a href="main.html">아웃턴쉽</a></li>
-            <li>
-                <a href="#">프로그램</a>
-                <ul>
-                    <li><a href="#">아웃턴쉽 프로그램</a></li>
-                    <li><a href="#">명사특강</a></li>
-                    <li>
-                        <a href="#">취업캠프</a>
-                        <!--<ul>-->
-                        <!--<li><a href="#">Lorem ipsum dolor</a></li>-->
-                        <!--<li><a href="#">Phasellus consequat</a></li>-->
-                        <!--<li><a href="#">Magna phasellus</a></li>-->
-                        <!--<li><a href="#">Etiam dolore nisl</a></li>-->
-                        <!--</ul>-->
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#">포토폴리오</a></li>
-            <li><a href="#">커뮤니티</a></li>
-            <li><a href="#">포토폴리오 요청</a></li>
-            <li><a href="#">기업등록</a></li>
-        </ul>
-    </nav>
+    <div id="top"></div>
 
     <!-- Main -->
     <div id="main-wrapper">
@@ -58,33 +28,7 @@
     </div>
 
     <!-- Footer -->
-    <footer id="footer" class="container">
-        <div class="row 200%">
-            <div class="12u">
-
-                <!-- Contact -->
-                <section>
-                    <h2 class="major"><span>Get in touch</span></h2>
-                    <ul class="contact">
-                        <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-                        <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-                        <li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-                        <li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-                        <li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
-                    </ul>
-                </section>
-
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul class="menu">
-                <li>&copy; Untitled. All rights reserved</li><li>강사인포 Company.</li>
-            </ul>
-        </div>
-
-    </footer>
+    <footer id="footer" class="container"></footer>
 
 </div>
 
@@ -100,4 +44,13 @@
 <script src="js/join-main.js"></script>
 
 </body>
+
+<!-- load top & footer.html -->
+<script>
+    $(function () {
+        $("#top").load("top.html");
+        $("#footer").load("footer.html");
+    });
+</script>
+
 </html>
