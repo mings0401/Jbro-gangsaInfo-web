@@ -2,7 +2,7 @@ $(function () {
     /*윈도창 크기가 변경될 때 이벤트*/
     $(window).bind('resize', function () {
         var width = $(window).width();
-        if(width >= 1366){
+        if(width >= 1365){
             drawWidthMode();
         }else{
             drawHeightMode();
