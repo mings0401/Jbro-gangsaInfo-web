@@ -54,89 +54,7 @@
 
     <!-- Main -->
     <div id="main-wrapper">
-        <table class="all-width-height-100">
-            <tr style="height: 60px;">
-                <td colspan="5"></td>
-            </tr>
-            <tr style="height: 500px;">
-                <td></td>
-                <td width="430px;">
-                    <div class="all-width-height-100 div-border">
-                        <table class="all-width-height-100">
-                            <tr style="height: 50px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 200px;">
-                                <td align="center">
-                                    <img style="width: 200px; height: 200px;" src="images/join-main/outturnshipjoin.png">
-                                </td>
-                            </tr>
-                            <tr style="height: 40px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 18px;">
-                                <td align="center">
-                                    <font class="font-18px-898989">당당한 커리어를 위해!</font>
-                                </td>
-                            </tr>
-                            <tr style="height: 84px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 50px;">
-                                <td align="center">
-                                    <div class="div-button movePage" value="outturnJoin">
-                                        <font class="font-button-text">아웃터니 회원가입</font>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-                <td width="50px;"></td>
-                <td width="430px;">
-                    <div class="all-width-height-100 div-border">
-                        <table class="all-width-height-100">
-                            <tr style="height: 50px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 200px;">
-                                <td align="center">
-                                    <img style="width: 200px; height: 200px;" src="images/join-main/commonjoin.png">
-                                </td>
-                            </tr>
-                            <tr style="height: 40px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 18px;">
-                                <td align="center">
-                                    <font class="font-18px-898989">질 높은 교육을 위해!</font>
-                                </td>
-                            </tr>
-                            <tr style="height: 84px;">
-                                <td></td>
-                            </tr>
-                            <tr style="height: 50px;">
-                                <td align="center">
-                                    <div class="div-button movePage" value="commonJoin">
-                                        <font class="font-button-text">일반 회원가입</font>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="5"></td>
-            </tr>
-        </table>
+
     </div>
 
     <!-- Footer -->
@@ -179,22 +97,7 @@
 <!--[if lte IE 8]>
 <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
-
-<script>
-    $(function () {
-        $('.movePage').unbind('click');
-        $('.movePage').bind('click', function () {
-            switch ($(this).attr("value")){
-                case 'outturnJoin':
-                    location.href = "outurnship-join.html";
-                    break;
-                case 'commonJoin':
-                    location.href = "common-join.html";
-                    break
-            }
-        });
-    });
-</script>
+<script src="js/join-main.js"></script>
 
 </body>
 </html>
