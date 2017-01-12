@@ -1,0 +1,82 @@
+.div-main-logo {
+    margin-top: -80px;
+    margin-bottom: -20px;
+}
+
+.div-introduce-title {
+    width: 300px;
+    height: 50px;
+    font-family: "Nanum Gothic";
+}
+
+.div-introduce-title p {
+    color: #454545;
+    font-size: 16px;
+}
+
+.div-introduce-contents {
+    width: 300px;
+    height: 100px;
+}
+
+.div-introduce-contents p {
+    color: #454545;
+    font-size: 14px;
+    font-family: "Nanum Gothic";
+}
+
+.div-main-count {
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: 100px;
+    background-color: #124c5a;
+    height: 360px;
+}
+
+.div-main-count-contents {
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 120px;
+}
+
+.div-main-count-contents div {
+    text-align: center;
+}
+
+.div-main-count-font p{
+    margin-top: 15px;
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "SansSerif";
+}
+
+.div-main-title-font p{
+    margin-top: -50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Nanum Gothic";
+}
+
+.div-main-notice {
+    width: 400px;
+}
+
+.div-main-banner {
+    position: absolute;
+    right: 40px;
+}
+
+.div-main-notice-title {
+    width: 400px;
+    height: 30px;
+    color: #454545;
+    font-family: "Nanum Gothic";
+    font-size: 24px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.span-main-notice-line {
+    width: 350px;
+
+}
