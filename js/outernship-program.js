@@ -84,7 +84,7 @@ function drawWidthMode() {
 
         '<tr valign="middle">' +
         '<td align="center">' +
-        '<font class="fon-26px-454545">기업홍보를 동시에 </font>' +
+        '<font class="font-26px-454545">기업홍보를 동시에 </font>' +
         '<font class="font-30px-bold-9f5da4">Early Company </font>' +
         '<font class="font-26px-454545">직업체험</font>' +
         '</td>' +
@@ -102,7 +102,7 @@ function drawWidthMode() {
 
 
     var imgWidth = '960';
-    if(windowWidth < 960){
+    if(windowWidth < 1110){
         imgWidth = windowWidth * 0.7;
     }
     var graphTable = '<table class="all-width-height-100">' +
@@ -126,8 +126,6 @@ function drawWidthMode() {
     $('#div-main-graph-area').append(graphTable);
 
 
-    var mainTitleFontSize = '';
-    if(windowWidth < 414) mainTitleFontSize = 'style = "width : 21px !important;"';
     var advantageTable = '<table class="all-width-height-100">' +
         '<tr style="height: 100px;">' +
         '<td colspan="4"></td>' +
