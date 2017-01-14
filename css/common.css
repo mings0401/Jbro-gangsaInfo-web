@@ -1,0 +1,10 @@
+.div-main-logo {
+    margin-top: -80px;
+    margin-bottom: -20px;
+}
+
+.nav-side {
+    width: 5%;
+    font-size: 10px;
+    cursor: pointer;
+}
