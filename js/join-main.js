@@ -12,7 +12,7 @@ $(function () {
         $('.movePage').bind('click', function () {
             switch ($(this).attr("value")){
                 case 'outturnJoin':
-                    location.href = "outurnship-join.html";
+                    location.href = "../outernship-join.html";
                     break;
                 case 'commonJoin':
                     location.href = "common-join.html";
@@ -202,6 +202,7 @@ function drawHeightMode() {
 
     $('#main-wrapper').empty();
     $('#main-wrapper').append('<table class="all-width-height-100">' +
+        '<tr style="height: 60px;"><td></td></tr>' +
         '<tr>' +
         '<td>'+ table +'</td>' +
         '</tr>' +
