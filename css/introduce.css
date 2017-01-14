@@ -1,0 +1,71 @@
+.div-main-introduce {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.gab {
+    width: 2px;
+    height: 160px;
+}
+
+.gab1 {
+    width: 2px;
+    height: 36px;
+}
+
+#div-main-introduce1 {
+    background-color: #e26b5d;
+}
+
+#div-introduce1-content1 {
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Apple SD Gothic Neo";
+}
+
+#div-introduce1-content2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Nanum Gothic";
+    margin-bottom: 80px;
+}
+
+
+#div-main-introduce2 {
+    background-color: inherit;
+    height: 115px;
+}
+
+#div-introduce2-content1 {
+    margin-top: 70px;
+    color: #454545;
+    font-size: 26px;
+    font-family: "Nanum Gothic";
+}
+
+#div-main-introduce3 {
+    background-color: #f2b964;
+}
+
+#div-introduce3-content1 {
+    color: white;
+    font-size: 26px;
+    font-family: "sans-serif";
+}
+
+#div-introduce3-content2 {
+    color: #ffffff;
+    width: inherit;
+    font-size: 14px;
+}
+
+#div-main-introduce4 {
+    background-color: white;
+}
+
+#div-info {
+    color: #454545;
+    font-size: 20px;
+    margin-top: -25px;
+}
