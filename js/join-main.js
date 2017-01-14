@@ -202,6 +202,7 @@ function drawHeightMode() {
 
     $('#main-wrapper').empty();
     $('#main-wrapper').append('<table class="all-width-height-100">' +
+        '<tr style="height: 60px;"><td></td></tr>' +
         '<tr>' +
         '<td>'+ table +'</td>' +
         '</tr>' +
