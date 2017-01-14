@@ -12,7 +12,7 @@ $(function () {
         $('.movePage').bind('click', function () {
             switch ($(this).attr("value")){
                 case 'outturnJoin':
-                    location.href = "outurnship-join.html";
+                    location.href = "../outernship-join.html";
                     break;
                 case 'commonJoin':
                     location.href = "common-join.html";
