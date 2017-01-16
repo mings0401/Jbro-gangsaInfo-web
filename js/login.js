@@ -207,7 +207,7 @@ function drawHeightMode() {
         '<td width="10px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 210px;">' +
+        '<tr>' +
         '<td colspan="3"></td>' +
         '</tr>' +
 
@@ -266,7 +266,7 @@ function drawHeightMode() {
         '<td width="10px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 46px;">' +
+        '<tr>' +
         '<td colspan="3"></td>' +
         '</tr>' +
 
