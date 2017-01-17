@@ -21,7 +21,12 @@
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid #9f5da4;
-    padding: 23px;
+    padding: 17px;
+}
+
+.div-button:hover{
+    color : #FFFFFF;
+    background-color: #9f5da4;
 }
 
 .font-button-text{

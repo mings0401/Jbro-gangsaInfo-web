@@ -55,8 +55,7 @@ var table = '<table class="all-width-height-100">'+
         '</tr>'+
         '<tr style="height: 50px;">'+
         '<td align="center">'+
-        '<div class="div-button movePage" style="width: 344px; height: 68px;" value="outturnJoin">'+
-        '<font class="font-button-text">아웃터니 회원가입</font>'+
+        '<div class="div-button movePage font-button-text" style="width: 344px; height: 68px;" value="outturnJoin">아웃터니 회원가입'+
     '</div>'+
     '</td>'+
     '</tr>'+
@@ -91,8 +90,7 @@ var table = '<table class="all-width-height-100">'+
         '</tr>'+
         '<tr style="height: 50px;">'+
         '<td align="center">'+
-        '<div class="div-button movePage" style="width: 344px; height: 68px;" value="commonJoin">'+
-        '<font class="font-button-text">일반 회원가입</font>'+
+        '<div class="div-button movePage font-button-text" style="width: 344px; height: 68px;" value="commonJoin">일반 회원가입'+
     '</div>'+
     '</td>'+
     '</tr>'+
@@ -143,8 +141,7 @@ function drawHeightMode() {
         '</tr>'+
         '<tr style="height: '+ (windowWidth * 0.3) * 0.25 +'px;">'+
         '<td align="center">'+
-        '<div class="div-button movePage" style="width: '+ windowWidth * 0.5 +'px;" value="outturnJoin">'+
-        '<font class="font-button-text">아웃터니 회원가입</font>'+
+        '<div class="div-button movePage font-button-text" style="width: '+ windowWidth * 0.5 +'px;" value="outturnJoin">아웃터니 회원가입'+
         '</div>'+
         '</td>'+
         '</tr>'+
@@ -185,8 +182,7 @@ function drawHeightMode() {
         '</tr>'+
         '<tr style="height: '+ (windowWidth * 0.3) * 0.25 +'px;">'+
         '<td align="center">'+
-        '<div class="div-button movePage" style="width: '+ windowWidth * 0.5 +'px;" value="outturnJoin">'+
-        '<font class="font-button-text">일반 회원가입</font>'+
+        '<div class="div-button movePage font-button-text" style="width: '+ windowWidth * 0.5 +'px;" value="outturnJoin">일반 회원가입'+
         '</div>'+
         '</td>'+
         '</tr>'+
