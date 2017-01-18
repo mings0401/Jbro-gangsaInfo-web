@@ -136,7 +136,7 @@ function drawWidthMode() {
         '<td></td>' +
         '</tr>' +
 
-        '<tr style="height: 38px;">' +
+        '<tr>' +
         '<td colspan="4"></td>' +
         '</tr>' +
         '</table>';
