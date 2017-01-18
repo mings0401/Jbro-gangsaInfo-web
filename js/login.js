@@ -52,7 +52,7 @@ function drawWidthMode() {
         '<td align="center">' +
         '<div class="div-social-btn table-naver">' +
         '<img style="float: left; margin-left: 15px;" src="/images/login/naver.png"/>' +
-        '<font style="float: left; margin-left: 30px;" class="font-social-text">네이버 아디로 로그인</font>' +
+        '<font style="float: left; margin-left: 30px;" class="font-social-text">네이버 아이디로 로그인</font>' +
         '</div>' +
         '</td>' +
         '<td width="40px;"></td>' +
@@ -201,7 +201,7 @@ function drawHeightMode() {
         '<td align="center">' +
         '<div class="div-social-btn-height table-naver">' +
         '<img style="float: left; margin-left: 5px;" src="/images/login/naver.png"/>' +
-        '<font style="float: left; margin-left: 20px;" class="font-social-text-height">네이버 아디로 로그인</font>' +
+        '<font style="float: left; margin-left: 20px;" class="font-social-text-height">네이버 아이디로 로그인</font>' +
         '</div>' +
         '</td>' +
         '<td width="10px;"></td>' +
@@ -299,14 +299,14 @@ function drawHeightMode() {
         '</tr>' +
         '</table>';
 
-    var marginTd = (windowWidth - ((430)))/2;
+    var marginTd = (windowWidth - ((300)))/2;
     var mainTable = '<table class="all-width-height-100">' +
         '<tr style="height: 60px;">' +
         '<td colspan="5"></td>' +
         '</tr>' +
         '<tr style="height: 500px;">' +
         '<td width="'+ marginTd +'px;"></td>' +
-        '<td width="280px;">'+ leftTable +'</td>' +
+        '<td width="300px;">'+ rightTable +'</td>' +
         '<td width="'+ marginTd +'px;"></td>' +
         '</tr>' +
         '<tr style="height: 60px;">' +
@@ -314,7 +314,7 @@ function drawHeightMode() {
         '</tr>' +
         '<tr style="height: 500px;">' +
         '<td width="'+ marginTd +'px;"></td>' +
-        '<td width="280px;">'+ rightTable +'</td>' +
+        '<td width="300px;">'+ leftTable +'</td>' +
         '<td width="'+ marginTd +'px;"></td>' +
         '</tr>' +
         '</table>';

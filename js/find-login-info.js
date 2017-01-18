@@ -110,7 +110,19 @@ function drawWidthMode() {
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 124px;">' +
+        '<tr style="height: 20px;">' +
+        '<td colspan="6"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 14px;">' +
+        '<td width="40px;"></td>' +
+        '<td colspan="6">' +
+        '<font class="font-14px-898989">회원정보에 등록된 연락처로 아이디를 찾을 수 있습니다.</font>' +
+        '</td>' +
+        '<td width="40px;"></td>' +
+        '</tr>'+
+
+        '<tr style="height: 80px;">' +
         '<td colspan="8"></td>' +
         '</tr>' +
 
@@ -310,7 +322,19 @@ function drawHeightMode() {
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 124px;">' +
+        '<tr style="height: 20px;">' +
+        '<td colspan="6"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 14px;">' +
+        '<td width="40px;"></td>' +
+        '<td colspan="6">' +
+        '<font class="font-14px-898989">회원정보에 등록된 연락처로 아이디를 찾을 수 있습니다.</font>' +
+        '</td>' +
+        '<td width="40px;"></td>' +
+        '</tr>'+
+
+        '<tr style="height: 80px;">' +
         '<td colspan="8"></td>' +
         '</tr>' +
 
