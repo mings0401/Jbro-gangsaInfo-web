@@ -135,3 +135,29 @@
     color : #454545;
 }
 
+.div-profile-menu{
+    width: 208px;
+    height: 52px;
+    border-radius: 4px;
+    font-size: 16px;
+    color : #9f5da4;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    border: solid 1px #9f5da4;
+    padding: 9px;
+}
+
+.div-profile-menu:hover{
+    color: #FFFFFF;
+    background-color: #9f5da4;
+}
+
+.active{
+    color: #FFFFFF !important;
+    background-color: #9f5da4 !important;
+}
+
+.hide{
+    display: none;
+}
