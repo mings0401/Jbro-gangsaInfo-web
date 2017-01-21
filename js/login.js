@@ -15,61 +15,81 @@ $(function () {
 
 function drawWidthMode() {
     var windowWidth = $(window).width();
-    var leftTable = '<table class="all-width-height-100 table-border">' +
-        '<tr style="height: 40px;;">' +
-        '<td colspan="3"></td>' +
+    var leftTable = '<table class="table-border" style="width: 100%; height: 523px;">' +
+        '<tr style="height: 40px;">' +
+        '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr style="height: 24px;">' +
+        '<tr>' +
         '<td width="40px;"></td>' +
-        '<td>' +
+        '<td colspan="2">' +
         '<font class="font-24px-bold-454545">SNS 로그인</font>' +
         '</td>' +
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 70px;;">' +
-        '<td colspan="3"></td>' +
+        '<tr style="height: 70px;">' +
+        '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr style="height: 68px;">' +
+        '<tr valign="middle" style="height: 68px;">' +
         '<td width="40px;"></td>' +
-        '<td align="center">' +
+        '<td colspan="2">' +
         '<div class="div-social-btn table-facebook">' +
         '<img style="float: left; margin-left: 15px;" src="/images/login/facebook.png"/>' +
         '<font style="float: left; margin-left: 30px;" class="font-social-text">페이스북 아이디로 로그인</font>' +
         '</div>' +
-        '</td>' +
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 20px;;">' +
-        '<td colspan="3"></td>' +
+        '<tr style="height: 20px;">' +
+        '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr style="height: 68px;">' +
+        '<tr valign="middle" style="height: 68px;">' +
         '<td width="40px;"></td>' +
-        '<td align="center">' +
+        '<td colspan="2">' +
         '<div class="div-social-btn table-naver">' +
         '<img style="float: left; margin-left: 15px;" src="/images/login/naver.png"/>' +
         '<font style="float: left; margin-left: 30px;" class="font-social-text">네이버 아이디로 로그인</font>' +
         '</div>' +
-        '</td>' +
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr>' +
-        '<td colspan="3"></td>' +
+        '<tr style="height: 46px;">' +
+        '<td colspan="4"></td>' +
         '</tr>' +
 
+        '<tr style="height: 31px;">' +
+        '<td></td>' +
+        '<td></td>' +
+        '<td align="right">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 44px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 72px;">' +
+        '<td></td>' +
+        '<td colspan="2">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 30px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
         '</table>';
 
-    var rightTable = '<table class="all-width-height-100 table-border">' +
+    var rightTable = '<table class="table-border" style="width: 100%; height: 523px;">' +
         '<tr style="height: 40px;">' +
         '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr style="height: 24px;">' +
+        '<tr>' +
         '<td width="40px;"></td>' +
         '<td colspan="2">' +
         '<font class="font-24px-bold-454545">아이디로 로그인</font>' +
@@ -111,7 +131,7 @@ function drawWidthMode() {
         '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr>' +
+        '<tr style="height: 31px;">' +
         '<td></td>' +
         '<td></td>' +
         '<td align="right">' +
@@ -128,7 +148,7 @@ function drawWidthMode() {
         '<td colspan="4"></td>' +
         '</tr>' +
 
-        '<tr style="height: 68px;">' +
+        '<tr style="height: 72px;">' +
         '<td></td>' +
         '<td colspan="2">' +
         '<div class="div-login-btn">LOG IN</div>' +
@@ -136,7 +156,7 @@ function drawWidthMode() {
         '<td></td>' +
         '</tr>' +
 
-        '<tr>' +
+        '<tr style="height: 30px;">' +
         '<td colspan="4"></td>' +
         '</tr>' +
         '</table>';
@@ -150,7 +170,7 @@ function drawWidthMode() {
         '<td width="'+ marginTd +'px;"></td>' +
         '<td width="430px;">'+ leftTable +'</td>' +
         '<td width="80px;"></td>' +
-        '<td width="430px;">'+ rightTable +'</td>' +
+        '<td width="430px;">'+rightTable  +'</td>' +
         '<td width="'+ marginTd +'px;"></td>' +
         '</tr>' +
         '<tr style="height: 120px;">' +
