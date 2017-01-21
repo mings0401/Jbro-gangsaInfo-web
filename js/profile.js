@@ -116,7 +116,100 @@ function drawWidthMode() {
 }
 
 function drawHeightMode() {
+    var windowWidth = $(window).width();
+    var menuTable = '<table class="all-width-height-100">' +
+        '<tr>' +
+        '<td width="208px;">' +
+        '<div class="div-profile-menu active" value="personal-info">개인정보</div>' +
+        '</td>' +
+        '<td></td>' +
+        '<td width="208px;">' +
+        '<div class="div-profile-menu" value="about-me">자기소개서</div>' +
+        '</td>' +
+        '</tr>' +
 
+        '<tr>' +
+        '<td width="208px;">' +
+        '<div class="div-profile-menu" value="career">학력/경력</div>' +
+        '</td>' +
+        '<td></td>' +
+        '<td width="208px;">' +
+        '<div class="div-profile-menu" value="interests">관심분야</div>' +
+        '</td>' +
+        '</tr>' +
+        '</table>';
+
+
+
+    var mainTable = '<table class="all-width-height-100">' +
+        '<tr style="height: 60px;">' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td align="center">' +
+        '<font class="font-30px-bold-454545">아웃터니 프로필</font>' +
+        '</td>' +
+        '</tr>' +
+
+        '<tr style="height: 60px;">' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td>'+ menuTable +'</td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td>' +
+        '<table id="table-change-area" class="all-width-height-100">' +
+        '<tr>' +
+        '<td class="td-change-area">'+ drawHeightMemberInfo() +'</td>' +
+        '<td class="td-change-area hide">'+ drawWidthAuboutMe() +'</td>' +
+        '<td class="td-change-area hide">'+ drawWidthCareer() +'</td>' +
+        '<td class="td-change-area hide">'+ drawWidthInterests() +'</td>' +
+        '</tr>' +
+        '</table>' +
+        '</td>' +
+        '</tr>' +
+
+
+        '<tr>' +
+        '<td align="center">' +
+        '<div class="div-login-btn" style="width:300px !important;">수정완료</div>' +
+        '</td>' +
+        '</tr>' +
+        '</table>';
+
+    $('#main-wrapper').empty();
+    $('#main-wrapper').append(mainTable);
+
+    $('.div-profile-menu').unbind('click');
+    $('.div-profile-menu').bind('click', function () {
+        if(!$(this).hasClass('active')){
+            $('.active').removeClass('active');
+            $(this).addClass('active');
+
+            $('#table-change-area').find('td.td-change-area').addClass('hide');
+            var value = $(this).attr("value");
+            switch (value){
+                case 'personal-info':
+                    $('#table-change-area').find('td.td-change-area').eq(0).removeClass('hide');
+                    break;
+                case 'about-me':
+                    $('#table-change-area').find('td.td-change-area').eq(1).removeClass('hide');
+                    break;
+                case 'career':
+                    $('#table-change-area').find('td.td-change-area').eq(2).removeClass('hide');
+                    break;
+                case 'interests':
+                    $('#table-change-area').find('td.td-change-area').eq(3).removeClass('hide');
+                    break;
+            }
+
+        }
+
+    });
 }
 
 /**
@@ -231,7 +324,7 @@ function drawWidthMemberInfo() {
         '<tr>' +
         '<td></td>' +
         '<td width="120px;">' +
-        '<div class="div-logo-btn">로고 첨부하기</div>' +
+        '<div class="div-logo-btn">사진 첨부하기</div>' +
         '</td>' +
         '<td width="60px;"></td>' +
         '<td width="44px;"></td>' +
@@ -269,6 +362,209 @@ function drawWidthMemberInfo() {
         '</tr>' +
 
 
+        '</table>';
+
+    return memberInfoTable;
+}
+
+/**
+ * 개인 정보 ( 가로 모드 )
+ */
+function drawHeightMemberInfo() {
+    var marginTd = 72;
+    var memberInfoTable = '<table class="all-width-height-100">' +
+
+        '<tr style="height: 168px;">' +
+        '<td width="'+ marginTd +'px;"></td>' +
+        '<td colspan="2" align="center">' +
+        '<div class="border-1px-solid-454545" style="width: 180px; height: 168px;"></div>' +
+        '</td>' +
+        '<td width="'+ marginTd +'px;"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td colspan="2" align="center">' +
+        '<div class="div-logo-btn">사진 첨부하기</div>' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">이름</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">가입일</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="date" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">휴대폰번</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">소속</font>' +
+        '</td>' +
+        '<td>' +
+        '<div class="all-width-height-100">'+
+        '<input type="checkbox">'+
+        '<font style="margin-left: 3px;" class="font-14px-454545">학교</font>'+
+        '<input type="checkbox">'+
+        '<font style="margin-left: 3px;" class="font-14px-454545">기업</font>'+
+        '<input type="checkbox">'+
+        '<font style="margin-left: 3px;" class="font-14px-454545">기관</font>'+
+        '</div>'+
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">이메일</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">소속명</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">관심분야</font>' +
+        '</td>' +
+        '<td>' +
+        '<select class="input-100per-30">'+
+        '<option>관심분야</option>'+
+        '</select>'+
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">직급</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 10px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545">주소</font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 5px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td></td>' +
+        '<td>' +
+        '<div class="div-logo-btn">우편번호 검색</div>' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
+
+        '<tr style="height: 5px;">' +
+        '<td colspan="4"></td>' +
+        '</tr>' +
+
+        '<tr>' +
+        '<td></td>' +
+        '<td width="90px;">' +
+        '<font class="font-16px-454545"></font>' +
+        '</td>' +
+        '<td>' +
+        '<input type="text" class="input-100per-30" placeholder="상세주소를 입력하세요.">' +
+        '</td>' +
+        '<td></td>' +
+        '</tr>' +
         '</table>';
 
     return memberInfoTable;
@@ -435,6 +731,18 @@ function drawWidthCareer() {
         '<input type="text" class="input-100per-30">' +
         '</td>' +
         '<td width="'+ marginTd + 'px;"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 20px;">' +
+        '<td colspan="8"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 20px;">' +
+        '<td colspan="6"></td>' +
+        '<td width="120px;">' +
+        '<div class="div-logo-btn">경력 추가</div>' +
+        '</td>' +
+        '<td></td>' +
         '</tr>' +
         '</table>';
 
