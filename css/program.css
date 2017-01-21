@@ -80,6 +80,21 @@
     resize: none;
 }
 
+.td-border-puple{
+    border-left : 4px solid #9f5da4;
+}
+
+.textarea-aubout-me{
+    width: 100% !important;
+    height : 100% !important;
+    border: none;
+}
+
+.table-aubout-me tr{
+    background-color: #f8f8f8;
+    border: 1px solid #c2c2c2;
+}
+
 .font-30px-bold-9f5da4{
     color: #9f5da4;
     font-size: 30px;
@@ -160,4 +175,14 @@
 
 .hide{
     display: none;
+}
+
+.item-float-left{
+    float: left;
+}
+
+.div-interests-area{
+    width: 80px;
+    height: 50px;
+
 }
