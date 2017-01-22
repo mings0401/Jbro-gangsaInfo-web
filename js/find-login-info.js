@@ -65,7 +65,7 @@ function drawWidthMode() {
         '<td width="80px">' +
         '<font class="font-16px-454545">이메일</font>' +
         '</td>' +
-        '<td>' +
+        '<td width="120px;">' +
         '<input type="text" class="all-width-height-100">' +
         '</td>' +
         '<td align="center" width="30px;">' +
@@ -79,7 +79,15 @@ function drawWidthMode() {
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 104">' +
+        '<tr style="height: 20px;">' +
+        '<td colspan="6"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 30px;">' +
+        '<td colspan="6"></td>' +
+        '</tr>' +
+
+        '<tr style="height: 40px;">' +
         '<td colspan="6"></td>' +
         '</tr>' +
 
@@ -91,7 +99,7 @@ function drawWidthMode() {
         '<td></td>' +
         '</tr>' +
 
-        '<tr>' +
+        '<tr style="height: 53px;">' +
         '<td colspan="6"></td>' +
         '</tr>' +
 
@@ -111,7 +119,7 @@ function drawWidthMode() {
         '</tr>'+
 
         '<tr style="height: 20px;">' +
-        '<td colspan="6"></td>' +
+        '<td colspan="8"></td>' +
         '</tr>' +
 
         '<tr style="height: 14px;">' +
@@ -187,7 +195,7 @@ function drawWidthMode() {
         '<td width="40px;"></td>' +
         '</tr>'+
 
-        '<tr style="height: 21px;">' +
+        '<tr style="height: 40px;">' +
         '<td colspan="8"></td>' +
         '</tr>' +
 
@@ -199,7 +207,7 @@ function drawWidthMode() {
         '<td></td>' +
         '</tr>' +
 
-        '<tr>' +
+        '<tr style="height: 53px;">' +
         '<td colspan="8"></td>' +
         '</tr>' +
         '</table>';
