@@ -135,11 +135,11 @@ function drawWidthMode() {
         '<td></td>' +
         '<td></td>' +
         '<td align="right">' +
-        '<div class="div-find-btn"><font class="font-14px-898989">아이디 찾기</font></div>' +
+        '<a href="/find-login-intfo.html"><div class="div-find-btn"><font class="font-14px-898989">아이디 찾기</font></div></a>' +
         '<div class="div-find-btn"><font class="font-14px-898989">|</font></div>' +
-        '<div class="div-find-btn"><font class="font-14px-898989">비밀번호 찾기</font></div>' +
+        '<a><div class="div-find-btn"><font class="font-14px-898989">비밀번호 찾기</font></div></a>' +
         '<div class="div-find-btn"><font class="font-14px-898989">|</font></div>' +
-        '<div class="div-find-btn"><font class="font-14px-898989">회원 가입</font></div>' +
+        '<a href="/join-main.html"><div class="div-find-btn"><font class="font-14px-898989">회원 가입</font></div></a>' +
         '</td>' +
         '<td></td>' +
         '</tr>' +
@@ -293,11 +293,11 @@ function drawHeightMode() {
         '<tr>' +
         '<td></td>' +
         '<td align="right">' +
-        '<div class="div-find-btn"><font class="font-14px-898989">아이디 찾기</font></div>' +
+        '<a href="/find-login-intfo.html"><div class="div-find-btn"><font class="font-14px-898989">아이디 찾기</font></div></a>' +
         '<div class="div-find-btn"><font class="font-14px-898989">|</font></div>' +
-        '<div class="div-find-btn"><font class="font-14px-898989">비밀번호 찾기</font></div>' +
+        '<a><div class="div-find-btn"><font class="font-14px-898989">비밀번호 찾기</font></div></a>' +
         '<div class="div-find-btn"><font class="font-14px-898989">|</font></div>' +
-        '<div class="div-find-btn"><font class="font-14px-898989">회원 가입</font></div>' +
+        '<a href="/join-main.html"><div class="div-find-btn"><font class="font-14px-898989">회원 가입</font></div></a>' +
         '</td>' +
         '<td></td>' +
         '</tr>' +

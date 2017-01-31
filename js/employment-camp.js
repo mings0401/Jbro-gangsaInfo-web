@@ -21,7 +21,7 @@ function drawWidthMode() {
 
         '<tr valign="middle">' +
         '<td align="center">' +
-        '<font class="font-30px-bold-ffffff">아웃턴쉽 프로그램</font>' +
+        '<font class="font-30px-bold-ffffff">돌파구 취업캠프</font>' +
         '</td>' +
         '</tr>' +
 
@@ -411,7 +411,7 @@ function drawHeightMode() {
 
         '<tr valign="middle">' +
         '<td align="center">' +
-        '<font class="font-30px-bold-ffffff">아웃턴쉽 프로그램</font>' +
+        '<font class="font-30px-bold-ffffff">돌파구 취업캠프</font>' +
         '</td>' +
         '</tr>' +
 
