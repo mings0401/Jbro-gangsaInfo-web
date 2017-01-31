@@ -6,34 +6,24 @@
 -->
 <html>
 <head>
-    <title>TXT by HTML5 UP</title>
+    <title>아웃턴 쉽</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]>
     <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/mypage/responsible.js"></script>
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="/css/program.css" />
+    <link rel="stylesheet" href="../css/mypage.css" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
     <link rel="stylesheet" href="css/common.css"/>
 </head>
-<body class="homepage">
+<body class="homepage" onload="init()">
 <div id="page-wrapper">
-
     <!-- Header -->
     <header id="header">
         <a href="main.html"><div class="div-main-logo"><img src="images/main/outernship-logo.png"></div></a>
     </header>
-
-    <!-- Banner -->
-    <div id="banner-wrapper">
-        <section id="banner">
-            <h2>2016 우수기업과 함께하는 아웃턴쉽 프로그램</h2>
-            <p>대한민국 10대들의 꿈을 향한 아웃팅</p>
-            <a href="#" class="button">Let's go</a>
-        </section>
-    </div>
 
     <!-- Nav -->
     <nav id="nav">
@@ -65,24 +55,39 @@
         </ul>
     </nav>
 
-    <!-- Main -->
-    <div id="main-wrapper">
-        <div id="div-main-explain-area">
-
+    <div class="div-mypage">
+        <div class="div-mypage-title" align="center">
+            마이페이지
         </div>
-
-        <div id="div-main-text-explain-area">
-
+        <div class="div-mypage-button">
+            <a href="mypage1.html"><button style="background: #9f5da4; color: #ffffff;">회원정보</button></a><a href="mypage2.html"><button>프로그램 신청내역</button></a><a href="mypage3.html"><button>프로그램 찜하기</button></a><a href="mypage4.html"><button>참가학생 찜하기</button></a>
         </div>
-
-        <div id="div-main-graph-area">
-
+        <div class="div-mypage-content">
+            <div>
+                <span><div class="div-title">이름</div> <input type="text"></span><span class="gab2"></span><span><div class="div-title">가입일</div> <input type="text"></span>
+            </div>
+            <div>
+                <span></span><span></span><span></span>
+            </div>
+            <div>
+                <span><div class="div-title">이메일</div> <input type="text"></span><span class="gab2"></span><span><div class="div-title">소속명</div> <input type="text"></span>
+            </div>
+            <div>
+                <span><div class="div-title">관심분야</div> <input type="text"></span><span class="gab2"></span><span><div class="div-title">직급</div> <input type="text"></span>
+            </div>
+            <div>
+                <span class="span-address"><div class="div-title">주소</div> <input type="text"></span><button id="button-address">우편번호검색</button>
+            </div>
+            <div>
+                <div class="div-title"></div> <span class="span-address2"><input type="text"></span>
+            </div>
         </div>
-
-        <div id="div-main-advantage-explain-area">
-
+        <div class="div-mypage-footer" align="center">
+            <button>수정완료</button>
         </div>
     </div>
+
+    <div id="main-wrapper" style="border-top:0px"></div>
 
     <!-- Footer -->
     <footer id="footer" class="container"></footer>
@@ -98,9 +103,9 @@
 <!--[if lte IE 8]>
 <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
-<script src="/js/outernship-program.js"></script>
 
 </body>
+
 <!-- load top & footer.html -->
 <script>
     $(function () {
@@ -108,4 +113,5 @@
         $("#footer").load("footer.html");
     });
 </script>
+
 </html>

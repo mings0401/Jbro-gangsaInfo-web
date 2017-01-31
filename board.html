@@ -6,34 +6,25 @@
 -->
 <html>
 <head>
-    <title>TXT by HTML5 UP</title>
+    <title>아웃턴 쉽</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]>
     <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/board/responsible.js"></script>
+    <script src="js/board/board.js"></script>
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="/css/program.css" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
     <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/board.css"/>
 </head>
 <body class="homepage">
 <div id="page-wrapper">
-
     <!-- Header -->
     <header id="header">
         <a href="main.html"><div class="div-main-logo"><img src="images/main/outernship-logo.png"></div></a>
     </header>
-
-    <!-- Banner -->
-    <div id="banner-wrapper">
-        <section id="banner">
-            <h2>2016 우수기업과 함께하는 아웃턴쉽 프로그램</h2>
-            <p>대한민국 10대들의 꿈을 향한 아웃팅</p>
-            <a href="#" class="button">Let's go</a>
-        </section>
-    </div>
 
     <!-- Nav -->
     <nav id="nav">
@@ -65,25 +56,52 @@
         </ul>
     </nav>
 
-    <!-- Main -->
-    <div id="main-wrapper">
-        <div id="div-main-explain-area">
 
+    <div class="div-notice">
+        <div class="div-board-title">
+            공지사항
         </div>
-
-        <div id="div-main-text-explain-area">
-
+        <div class="div-board-content">
+            <table width="100%" style="border-top: 2px solid #9f5da4; border-bottom: 2px solid #9f5da4;">
+                <tr align="center" height="35px" width="100%" style="border-top: 2px solid #9f5da4; border-bottom: 2px solid #9f5da4;">
+                    <td width="10%">번호</td><td width="40%">제목</td><td width="20%">작성자</td><td width="20%">작성일시</td><td width="10%">댓글수</td>
+                </tr>
+                <tr align="center" width="100%">
+                    <td>1</td><td>공지사항1</td><td>관리자</td><td>17-01-01</td><td>2</td>
+                </tr>
+                <tr align="center" width="100%">
+                    <td>2</td><td>공지사항2</td><td>관리자</td><td>17-01-01</td><td>2</td>
+                </tr>
+            </table>
         </div>
-
-        <div id="div-main-graph-area">
-
-        </div>
-
-        <div id="div-main-advantage-explain-area">
-
+        <div class="div-board-footer" align="center">
+            <button><<</button><button>>></button>
         </div>
     </div>
 
+    <div class="div-board">
+        <div class="div-board-title">
+            커뮤니티
+        </div>
+        <div class="div-board-content">
+            <table width="100%" style="border-top: 2px solid #9f5da4; border-bottom: 2px solid #9f5da4;">
+                <tr align="center" height="35px" width="100%" style="border-top: 2px solid #9f5da4; border-bottom: 2px solid #9f5da4;">
+                    <td width="10%">번호</td><td width="40%">제목</td><td width="20%">작성자</td><td width="20%">작성일시</td><td width="10%">댓글수</td>
+                </tr>
+                <tr align="center" width="100%">
+                    <td>1</td><td>공지사항1</td><td>관리자</td><td>17-01-01</td><td>2</td>
+                </tr>
+                <tr align="center" width="100%">
+                    <td>2</td><td>공지사항2</td><td>관리자</td><td>17-01-01</td><td>2</td>
+                </tr>
+            </table>
+        </div>
+        <div class="div-board-footer" align="center">
+            <button><<</button><button>>></button>
+        </div>
+    </div>
+
+    <div id="main-wrapper" style="border-top:0px"></div>
     <!-- Footer -->
     <footer id="footer" class="container"></footer>
 
@@ -98,9 +116,9 @@
 <!--[if lte IE 8]>
 <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
-<script src="/js/outernship-program.js"></script>
 
 </body>
+
 <!-- load top & footer.html -->
 <script>
     $(function () {
@@ -108,4 +126,5 @@
         $("#footer").load("footer.html");
     });
 </script>
+
 </html>

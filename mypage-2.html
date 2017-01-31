@@ -6,34 +6,24 @@
 -->
 <html>
 <head>
-    <title>TXT by HTML5 UP</title>
+    <title>아웃턴 쉽</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]>
     <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/mypage/responsible.js"></script>
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="/css/program.css" />
+    <link rel="stylesheet" href="../css/mypage-2.css" />
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
     <link rel="stylesheet" href="css/common.css"/>
 </head>
-<body class="homepage">
+<body class="homepage" onload="init()">
 <div id="page-wrapper">
-
     <!-- Header -->
     <header id="header">
         <a href="main.html"><div class="div-main-logo"><img src="images/main/outernship-logo.png"></div></a>
     </header>
-
-    <!-- Banner -->
-    <div id="banner-wrapper">
-        <section id="banner">
-            <h2>2016 우수기업과 함께하는 아웃턴쉽 프로그램</h2>
-            <p>대한민국 10대들의 꿈을 향한 아웃팅</p>
-            <a href="#" class="button">Let's go</a>
-        </section>
-    </div>
 
     <!-- Nav -->
     <nav id="nav">
@@ -65,24 +55,34 @@
         </ul>
     </nav>
 
-    <!-- Main -->
-    <div id="main-wrapper">
-        <div id="div-main-explain-area">
-
+    <div class="div-mypage">
+        <div class="div-mypage-title" align="center">
+            마이페이지
         </div>
-
-        <div id="div-main-text-explain-area">
-
+        <div class="div-mypage-button" align="center">
+            <a href="mypage-1.html"><button>회원정보 및 프로필 등록</button></a><a href="mypage-2.html"><button style="background: #9f5da4; color: #ffffff;">포토폴리오</button></a>
         </div>
-
-        <div id="div-main-graph-area">
-
+        <div class="div-mypage-content">
+            <div>
+                <span class="span-address"><div class="div-title">사진1</div> <input type="text"><input type="text"></span><button>첨부하기</button><button style="background: #ffffff; color: #454545;">사진삭제</button>
+            </div>
+            <div>
+                <span class="span-address"><div class="div-title">사진2</div> <input type="text"><input type="text"></span><button>첨부하기</button><button style="background: #ffffff; color: #454545;">사진삭제</button>
+            </div>
+            <div>
+                <span class="span-address"><div class="div-title">사진3</div> <input type="text"><input type="text"></span><button>첨부하기</button><button style="background: #ffffff; color: #454545;">사진삭제</button>
+            </div>
+            <div>
+                <span class="span-address"><div class="div-title">사진4</div> <input type="text"><input type="text"></span><button>첨부하기</button><button style="background: #ffffff; color: #454545;">사진추가</button><button style="background: #ffffff; color: #454545;">사진삭제</button>
+            </div>
         </div>
-
-        <div id="div-main-advantage-explain-area">
-
+        <div class="div-mypage-footer" align="center">
+            <button>포토폴리오 미리보기</button><br><br>
+            <button>프로필 등록</button>
         </div>
     </div>
+
+    <div id="main-wrapper" style="border-top:0px"></div>
 
     <!-- Footer -->
     <footer id="footer" class="container"></footer>
@@ -98,9 +98,9 @@
 <!--[if lte IE 8]>
 <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="../assets/js/main.js"></script>
-<script src="/js/outernship-program.js"></script>
 
 </body>
+
 <!-- load top & footer.html -->
 <script>
     $(function () {
@@ -108,4 +108,5 @@
         $("#footer").load("footer.html");
     });
 </script>
+
 </html>
