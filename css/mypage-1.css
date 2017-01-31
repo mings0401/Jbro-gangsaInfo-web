@@ -1,0 +1,130 @@
+body {
+    background: #ffffff;
+}
+
+/* mypage1 */
+.div-main-logo {
+    border-bottom: 10px solid #2E5E86;
+}
+.div-mypage {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.div-mypage-title {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.div-mypage-button {
+    width: inherit;
+    margin-bottom: 60px;
+}
+
+.div-mypage-button button {
+    width: 208px;
+    height: 52px;
+    border: 1px solid #9f5da4;
+    color: #9f5da4;
+    font-size: 13px;
+    font-family: "Nanum Gothic";
+    margin-left: 30px;
+    background: #ffffff;
+}
+
+.div-mypage-footer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.div-mypage-footer button {
+    width: 208px;
+    height: 52px;
+    border: 1px solid #9f5da4;
+    color: #9f5da4;
+    font-size: 16px;
+    font-family: "Nanum Gothic";
+    background: #ffffff;
+}
+
+.div-mypage-content {
+    display: inline-block;
+}
+
+.div-mypage-content div{
+    margin-bottom: 20px;
+}
+
+.div-title {
+    margin-left: 50px;
+    width: 120px;
+    display: inline-block;
+}
+
+.span-address input {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.div-mypage-content1 {
+    margin-left: -45px;
+}
+
+.div-mypage-content1 button{
+    margin-left: 45px;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: #6c6c6c;
+    border: 1px solid #6c6c6c;
+}
+
+.div-mypage-content1 input {
+    width: 230px;
+}
+
+.gab {
+    width: 20px;
+    height: 1px;
+    margin-left: 40px;
+}
+
+.gab2 {
+    width: 200px;
+    height: 1px;
+    margin-left: 300px;
+}
+
+/* mypage2 */
+.div-card {
+    margin-left: 20px;
+    display: inline-block;
+    width:220px;
+    height: 390px;
+    border-radius: 4px;
+    border: 1px solid #2E5E86;
+}
+
+.div-card-content {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.div-card-footer {
+    margin-top: -40px;
+}
+.div-card button{
+    width: 218px;
+    border-top: 1px solid #2E5E86;
+    background: #ffffff;
+    color: #454545;
+    border-radius: 0px;
+}
+
+.div-card-img {
+    width: 200px;
+    height: 210px;
+    background-color: #454545;
+}

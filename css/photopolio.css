@@ -1,0 +1,32 @@
+.div-main-introduce {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.gab {
+    width: 2px;
+    height: 160px;
+}
+
+.gab1 {
+    width: 2px;
+    height: 36px;
+}
+
+#div-main-introduce1 {
+    background-color: #114c59;
+}
+
+#div-introduce1-content1 {
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Apple SD Gothic Neo";
+}
+
+#div-introduce1-content2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Nanum Gothic";
+    margin-bottom: 80px;
+}

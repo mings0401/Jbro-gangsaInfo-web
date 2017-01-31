@@ -1,0 +1,33 @@
+body {
+    background: #ffffff;
+}
+.div-notice {
+    border-top: 10px solid #2661a6;
+    background: #ffffff;
+    margin-bottom: 60px;
+}
+
+.div-board-title {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #454545;
+    margin-bottom: 60px;
+}
+
+.div-board-content {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.div-board-footer button{
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #1c94c4;
+}
+
+.div-board {
+    background: #ffffff;
+    margin-bottom: 60px;
+}
